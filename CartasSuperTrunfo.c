@@ -131,5 +131,11 @@ printf("PIB per capita: Carta %d venceu (%d)\n",
 printf("Super Poder: Carta %d venceu (%d)\n", 
     (super_poder1 > super_poder2) ? 1 : 2, (super_poder1 > super_poder2));
 
+//comparação entre população
+printf("\n comparação entre população\n");
+if (população > população2) {
+    printf("carta 1 tem mais população que a carta 2\n");}
+    else { printf("carta 2 tem mais população que a carta 1\n");
+    }
     return 0;
 }
